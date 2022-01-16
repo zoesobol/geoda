@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/geoda/static/css/main.2c73f42d.css",
+    "main.js": "/geoda/static/js/main.96476fb5.js",
+    "static/js/787.938a66b1.chunk.js": "/geoda/static/js/787.938a66b1.chunk.js",
+    "static/media/geoda.png": "/geoda/static/media/geoda.bc49afdf0f05a99d3a8f.png",
+    "index.html": "/geoda/index.html",
+    "main.2c73f42d.css.map": "/geoda/static/css/main.2c73f42d.css.map",
+    "main.96476fb5.js.map": "/geoda/static/js/main.96476fb5.js.map",
+    "787.938a66b1.chunk.js.map": "/geoda/static/js/787.938a66b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c73f42d.css",
+    "static/js/main.96476fb5.js"
+  ]
+}
