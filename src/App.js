@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./img/geoda.png";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import { Typography } from "@mui/material";
+import "./App.scss";
 
 function App() {
+  const theme = createTheme({
+    typography: {
+      fontFamily: ["Dongle", "sans-serif"].join(","),
+    },
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <Typography variant="h1" fontWeight={400}>
+            En proceso
+          </Typography>
+        </header>
+      </div>
+    </ThemeProvider>
   );
 }
 
